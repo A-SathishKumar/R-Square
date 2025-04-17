@@ -1,0 +1,704 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Contact | Edurock - Education LMS Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.documentElement.classList.add("is_dark");
+        }
+        if (localStorage.getItem("theme-color") === "light") {
+            document.documentElement.classList.remove("is_dark");
+        } 
+    </script>
+
+</head>
+
+
+<body class="body__wrapper">
+    <!-- pre loader area start -->
+    <div id="back__preloader">
+        <div id="back__circle_loader"></div>
+        <div class="back__loader_logo">
+            <img loading="lazy" src="img/pre.png" alt="Preload">
+        </div>
+    </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- Dark/Light area start -->
+    <div class="mode_switcher my_switcher">
+        <button id="light--to-dark-button" class="light align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512">
+                <path
+                    d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+                    fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="32" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                    d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
+                <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-miterlimit="10" stroke-width="32" />
+            </svg>
+
+            <span class="light__mode">Light</span>
+            <span class="dark__mode">Dark</span>
+        </button>
+    </div>
+    <!-- Dark/Light area end -->
+
+    <main class="main_wrapper overflow-hidden">
+
+
+        <!-- topbar__section__stert -->
+        <div class="topbararea topbararea--2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__left">
+                            <ul>
+                                <li>
+                                    Call Us: +91 73580 40969
+                                </li>
+                                <li>
+                                    - Mail Us: info@rsquareeducation.in
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__right">
+                            <div class="topbar__icon">
+                                <i class="icofont-location-pin"></i>
+                            </div>
+                            <div class="topbar__text">
+                                <p>9/5, Lakshmipuram Road,
+                                    Opposite to Head Post Office,
+                                    Tiruvallur - 602001 </p>
+                            </div>
+                            <div class="topbar__list">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="icofont-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-youtube-play"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar__section__end -->
+
+
+        <!-- headar section start -->
+        <header>
+            <div class="headerarea headerarea__2 header__sticky header__area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-6">
+                            <div class="headerarea__left">
+                                <div class="headerarea__left__logo">
+                                    <a href="index.html"><img loading="lazy" src="img/logo/logo.png" alt="logo"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 main_menu_wrap">
+                            <div class="headerarea__main__menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="/index.html">Home</a></li>
+                                        <li><a href="/toppers.html">Toppers</a></li>
+                                        <li><a href="/franchise_enquiry.html">Franchise Enquiry</a></li>
+                                        <li><a href="/contact.html">Contact Us</a></li>
+                                        <li><a href="/privacy_policy.html">Privacy Policy</a></li>
+                                        <li><a href="/about.html">About Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 text-right">
+                            <div class="headerarea__right__logo">
+                                <a href="https://example.com" target="_blank">
+                                    <img loading="lazy" src="img/partners/stem.jpeg" alt="Other Logo" style="max-height: 50px;">
+                                </a>
+                            </div>
+                        </div>
+  
+
+                    </div>
+        </header>
+        <!-- header section end -->
+
+        <!-- Mobile Menu Start Here -->
+        <div class="mobile-off-canvas-active">
+            <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
+            <div class="header-mobile-aside-wrap">
+                <div class="mobile-search">
+                    <form class="search-form" action="#">
+                        <input type="text" placeholder="Search entire store…">
+                        <button class="button-search"><i class="icofont icofont-search-2"></i></button>
+                    </form>
+                </div>
+
+                <div class="mobile-social-wrap">
+                    <a class="facebook" href="#"><i class="icofont icofont-facebook"></i></a>
+                    <a class="twitter" href="#"><i class="icofont icofont-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="icofont icofont-pinterest"></i></a>
+                    <a class="instagram" href="#"><i class="icofont icofont-instagram"></i></a>
+                    <a class="google" href="#"><i class="icofont icofont-youtube-play"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- theme fixed shadow -->
+        <div>
+            <div class="theme__shadow__circle"></div>
+            <div class="theme__shadow__circle shadow__right"></div>
+        </div>
+        <!-- theme fixed shadow -->
+        <!-- breadcrumbarea__section__start -->
+
+        <div class="breadcrumbarea">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb__content__wraper" data-aos="fade-up">
+                            <div class="breadcrumb__title">
+                                <h2 class="heading">Our Toppers</h2>
+                            </div>
+                            <div class="breadcrumb__inner">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li>Our Toopers</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape__icon__2">
+                <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="img/herobanner/herobanner__1.png"
+                    alt="photo">
+                <img loading="lazy" class=" shape__icon__img shape__icon__img__2" src="img/herobanner/herobanner__2.png"
+                    alt="photo">
+                <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="img/herobanner/herobanner__3.png"
+                    alt="photo">
+                <img loading="lazy" class=" shape__icon__img shape__icon__img__4" src="img/herobanner/herobanner__5.png"
+                    alt="photo">
+            </div>
+
+        </div>
+
+        
+
+        <div class="toppers-section sp_top_100 sp_bottom_100">
+            <div class="container">
+                <div class="row">
+                    <!-- Title -->
+                    <div class="col-xl-12 text-center">
+                        <h2 class="heading">Our Toppers</h2>
+                        <p class="subheading">Meet the achievers who made us proud</p>
+                    </div>
+                </div>
+        
+                <!-- Medical Section -->
+                <div class="row toppers-category">
+                    <div class="col-xl-12">
+                        <h3 class="category-title">Medical</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med1.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms. Divyalakshmi J</h4>
+                            <h5 class="toppers-name">Government Medical College, Villupuram</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med2.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Jasmine K</h4>
+                            <h5 class="toppers-name">Dhanalakshmi Srinivasan College, Perambalur</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med3.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr. Suki Krishnakanth K</h4>
+                            <h5 class="toppers-name">Chettinad Dental College, Kanchipuram</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med4.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr. Lohendra T</h4>
+                            <h5 class="toppers-name">Velumallu Siddha Medical College, Kanchipuram</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med6.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Amrose Fathima S</h4>
+                            <h5 class="toppers-name">Venkateshwara Medical College,Chennai</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/med5.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Sneha T</h4>
+                            <h5 class="toppers-name">Meenakshi Medical College, Kanchipuram</h5>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Engineering Section -->
+                <div class="row toppers-category">
+                    <div class="col-xl-12">
+                        <h3 class="category-title">Engineering</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/eng1.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Sarathy S P</h4>
+                            <h5 class="toppers-name">Vellore Institute of Technology, Andhra Pradesh</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/eng2.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Sujay Pravin A</h4>
+                            <h5 class="toppers-name">Vellore Institute of Technology, Chennai</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/eng3.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Muhammed Roshan S</h4>
+                            <h5 class="toppers-name">College Of Engineering, Guindy - Chennai</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/eng4.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Pranevsh N</h4>
+                            <h5 class="toppers-name">Vellore Institute of Technology, Chennai</h5>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- 12th Section -->
+                <div class="row toppers-category">
+                    <div class="col-xl-12">
+                        <h3 class="category-title">XII Integrated NEET/JEE</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-2.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Raghul V</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-3.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Aadithyaa B B</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-4.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Varshini J</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-5.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Nivashini P</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-6.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Kaviya Sri B</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-7.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Tamilarasi R G</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-8.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Lakshana S</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/12th-9.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Hema Priya S</h4>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- NEET Section -->
+                <div class="row toppers-category">
+                    <div class="col-xl-12">
+                        <h3 class="category-title">NEET</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/neet1.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Ms Haripriya S B</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/neet2.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Ajay R</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/neet3.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Saisaran v</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 text-center">
+                        <div class="toppers-card">
+                            <img src="img/topper/neet4.png" alt="Toppers Photo" class="toppers-photo">
+                            <h4 class="toppers-name">Mr Raghul V</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <style>
+            .toppers-section {
+                background-color: #f9f9f9;
+                padding: 50px 20px;
+                border-radius: 10px;
+            }
+        
+            .toppers-section .heading {
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: #333;
+            }
+        
+            .toppers-section .subheading {
+                font-size: 18px;
+                color: #666;
+                margin-bottom: 40px;
+            }
+        
+            .toppers-category {
+                margin-bottom: 50px;
+            }
+        
+            .category-title {
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: #444;
+            }
+        
+            .toppers-card {
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 15px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+            }
+        
+            .toppers-photo {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+        
+            .toppers-name {
+                font-size: 16px;
+                font-weight: bold;
+                color: #333;
+            }
+        </style>
+        
+        <!-- footer__section__start -->
+        <div class="footerarea">
+            <div class="container">
+                <div class="footerarea__newsletter__wraper">
+                    <div class="row align-items-center">
+                        <!-- Left Side Content -->
+                        <div class="col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="footerarea__text">
+                                <h3>Still Need Our <span>Support</span>?</h3>
+                                <p>Don’t wait, reach out to us for assistance.</p>
+                            </div>
+                        </div>
+
+                        <!-- Right Side Email Box -->
+                        <div class="col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="email-box">
+                                <a href="mailto:support@example.com"> info@rsquareeducation.in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    .footerarea__newsletter__wraper {
+                        padding: 20px 0;
+                    }
+
+                    .footerarea__text h3 {
+                        font-size: 40px;
+                        font-weight: bold;
+                        color: #fff;
+                    }
+
+                    .footerarea__text p {
+                        font-size: 16px;
+                        color: #ddd;
+                    }
+
+                    .email-box {
+                        background: linear-gradient(135deg, #ff7eb3, #ff758c);
+                        padding: 15px 25px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 15px rgba(255, 118, 136, 0.4);
+                        animation: glow 1.5s infinite alternate;
+                        max-width: 350px;
+                        margin: auto;
+                    }
+
+                    .email-box a {
+                        font-size: 22px;
+                        font-weight: bold;
+                        color: #fff;
+                        text-decoration: none;
+                        font-family: 'Poppins', sans-serif;
+                        letter-spacing: 1px;
+                    }
+
+                    @keyframes glow {
+                        from {
+                            box-shadow: 0 4px 15px rgba(255, 118, 136, 0.4);
+                        }
+
+                        to {
+                            box-shadow: 0 6px 20px rgba(255, 118, 136, 0.8);
+                        }
+                    }
+
+                    @media (max-width: 768px) {
+                        .footerarea__text {
+                            text-align: center;
+                            margin-bottom: 15px;
+                        }
+
+                        .email-box {
+                            max-width: 100%;
+                        }
+                    }
+                </style>
+
+                <div class="footerarea__wrapper footerarea__wrapper__2">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="footerarea__inner footerarea__about__us">
+                                <div class="footerarea__heading">
+                                    <h3>About us</h3>
+                                </div>
+                                <div class="footerarea__content">
+                                    <p>At R Square Education, we redefine learning with an innovative and result-driven
+                                        approach. Our commitment to conceptual learning ensures that students not only
+                                        understand but also excel in their fields.</p>
+                                </div>
+                                <div class="foter__bottom__text">
+                                    <div class="footer__bottom__icon">
+                                        <i class="icofont-clock-time"></i>
+                                    </div>
+                                    <div class="footer__bottom__content">
+                                        <h6>Opening Houres</h6>
+                                        <span>Mon - Sun(8.00AM - 9.00PM)</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6" data-aos="fade-up">
+                            <div class="footerarea__inner">
+                                <div class="footerarea__heading">
+                                    <h3>Usefull Links</h3>
+                                </div>
+                                <div class="footerarea__list">
+                                    <ul>
+                                        <li>
+                                            <a href="/toppers.html">Toppers</a>
+                                        </li>
+                                        <li>
+                                            <a href="/privacy_policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" data-aos="fade-up">
+                            <div class="footerarea__inner footerarea__padding__left">
+                                <div class="footerarea__heading">
+                                    <h3>Course</h3>
+                                </div>
+                                <div class="footerarea__list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">NEET</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">IIT-JEE</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Foundation Courses</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tuition For Classes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="footerarea__inner footerarea__about__us">
+                                <div class="footerarea__heading">
+                                    <h3>Head Office</h3>
+                                </div>
+                                <div class="footerarea__content">
+                                    <p>9/5, Lakshmipuram Road, Opposite to Head Post Office, Tiruvallur - 602001
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerarea__copyright__wrapper footerarea__copyright__wrapper__2">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="copyright__logo">
+                                <a href="/"><img loading="lazy" src="img/logo/logo.png" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="footerarea__copyright__content footerarea__copyright__content__2">
+                                <p>Copyright © <span>2025</span> by R Square. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="footerarea__icon footerarea__icon__2">
+                                <ul>
+                                    <li><a href="//facebook.com"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="//twitter.com"><i class="icofont-twitter"></i></a></li>
+                                    <li><a href="//linkedin.com"><i class="icofont-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- footer__section__end -->
+
+
+    </main>
+
+
+
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+        }
+        if (localStorage.getItem("theme-color") === "light") {
+            document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+        } 
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<form id="franchise-enquiry-form" class="contact-form" action="franchise_mail.php" method="post">
+            <div class="row">
+                <!-- Full Name -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="text" name="full_name" id="full_name" placeholder="Full Name*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-businessman"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Address -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="email" name="email" id="email" placeholder="Email Address*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-ui-call"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="text" name="city" id="city" placeholder="City*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-location-pin"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- State -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="text" name="state" id="state" placeholder="State*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-map"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Investment Budget -->
+                <div class="col-xl-6" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <input type="text" name="investment_budget" id="investment_budget"
+                            placeholder="Investment Budget*" required>
+                        <div class="contact__icon">
+                            <i class="icofont-money"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="col-xl-12" data-aos="fade-up">
+                    <div class="contact__input__wraper">
+                        <textarea name="message" id="message" cols="30" rows="5"
+                            placeholder="Additional Information or Questions"></textarea>
+                        <div class="contact__icon">
+                            <i class="icofont-pen-alt-2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-xl-12" data-aos="fade-up">
+                    <div class="contact__button">
+                        <button type="submit" value="submit" class="default__button" name="submit">Submit
+                            Enquiry</button>
+                        <p class="form-messege"></p>
+                    </div>
+                </div>
+            </div>
+        </form>
