@@ -60,6 +60,18 @@
 	|___ End Style Sheet Indexing
 
 ***************************************************************/
+
+.headerarea__left__logo img {
+      max-width: 180px;
+          height: auto;
+              transition: transform 0.3s ease-in-out;
+                  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+                  }
+
+                  .headerarea__left__logo img:hover {
+                      transform: scale(1.05);
+                      }
+}
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 :root {
   --bodyColor: #222222;
